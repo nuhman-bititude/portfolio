@@ -12,7 +12,17 @@
 <body>
   <div class="container-fluid bg-dark">
       <div class="container bg-light p-4"> 
+        <div class="row">
+            <div class="col">
+                <a class="link p-3" href="#home">Home</a>
+                <a class="link p-3" href="#about">About</a>
+                <a class="link p-3" href="#skills">Skills</a>
+                <a class="link p-3" href="#projects">Projects</a>
+                <a class="link p-3" href="#contact">Contact</a>
+            </div>
+        </div>
           <div class="row">
+            <section id="home"></section>
               <div class="col-6 ">
                   <img src="img/bg_1.png" alt="image" class="img- img p-5">
               </div>
@@ -22,12 +32,14 @@
           </div>
       </div>
       <div class="container bg-white">
+        <section id="about"></section>
           <p class="display-6 p-1">About</p>
           <div class="row">
-            <p class="lead p-1 ">Hello. I'm Nuhman, a Computer Science Graduate from Malappuram. I completed my Undergraduate programme from College of Applied science (IHRD) Malappuram under University of Calicut in 2022. Currently working in <a href="https://bititude.com" class="link">Bititude Technologies</a> at UL Cyber Park as Software enginner.  </p>
+            <p class="lead p-1 ">Hello. I'm Nuhman, a Computer Science Graduate from Malappuram. I completed my Undergraduate programme from College of Applied science (IHRD) Malappuram under University of Calicut in 2022. Currently working in <a href="https://bititude.com" class="link-1">Bititude Technologies</a> at UL Cyber Park as Software enginner.  </p>
           </div>
       </div>
       <div class="container bg-light">
+        <section id="skills"></section>
         <p class="display-6 p-1">Skills</p>
         <div class="row">
             <div class="col p-2">
@@ -175,9 +187,111 @@
                 </div>
             </div>
 
-
+       
+        <div class="container bg-white">
+            <section id="projects"></section>
+            <p class="display-6 p-1">Projects</p>
+        <div class="row">
+            <div class="col p2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="card-title">Patient way</div>
+                        <div class="card-subtitle text-muted">College Project</div>
+                        <div class="card-text">An Ambulance management app which connects all the ambulance to near-by users through an app</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col p2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="card-title">YoutubeTags</div>
+                        <div class="card-subtitle text-muted">Pypi Project</div>
+                        <div class="card-text">Python API wrapper to Extract youtube video Tags without Youtube API</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col p2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="card-title">Web Scrapper Bot</div>
+                        <div class="card-subtitle text-muted">Telegram Bot</div>
+                        <div class="card-text">Telegram Bot to scrap webpages using Requests, html5lib and Beautifulsoup</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col p2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="card-title">Audio Book</div>
+                        <div class="card-subtitle text-muted">Telegram Bot</div>
+                        <div class="card-text">A Telegram Bot which converts PDF TO Audio Using Pypdf2 and gTTS</div>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
+      </div>
+      <section id="contact"></section>
+      <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
+      <p class="text-center w-responsive mx-auto mb-5">Fill out the form , So I can Reach You</p>
+  
+      <div class="row">
+          <div class="col-md-9 mb-md-0 mb-5">
+              <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <div class="md-form mb-0">
+                              <input type="text" id="name" name="name" class="form-control">
+                              <label for="name" class="">Your name</label>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="md-form mb-0">
+                              <input type="text" id="email" name="email" class="form-control">
+                              <label for="email" class="">Your email</label>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="md-form mb-0">
+                              <input type="text" id="subject" name="subject" class="form-control">
+                              <label for="subject" class="">Subject</label>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+  
+                          <div class="md-form">
+                              <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                              <label for="message">Your message</label>
+                          </div>
+                      </div>
+                  </div>
+              </form>
+              <div class="text-center text-md-left">
+                  <a class="btn btn-primary">Send</a>
+              </div>
+              <div class="status"></div>
+          </div>
+          <div class="col-md-3 text-center">
+              <ul class="list-unstyled mb-0">
+                  <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                      <p>Calicut</p>
+                  </li>
+  
+                  <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                      <p>+ 01 234 567 89</p>
+                  </li>
+  
+                  <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                      <p>nuhman@bititude.com</p>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  
 
 
     </div>

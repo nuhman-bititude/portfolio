@@ -26,9 +26,7 @@ body{
     }
 }
 
-.link{
-    text-decoration: dotted;
-}
+
 p{
     margin-bottom: 0px;
     margin-top: 0px;
@@ -40,4 +38,22 @@ p{
 .card:hover{
     transform: scale(.93);
     transition: .5s ease;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+
+}
+.link:hover{
+    color:lightseagreen
+}
+
+.link-1{
+    color: black;
+    text-decoration: none;
+
+}
+.link-1:hover{
+    color:rgb(231, 81, 96)
 }
