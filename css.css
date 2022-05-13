@@ -33,3 +33,11 @@ p{
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
+.card{
+    transition: .3s;
+}
+.card:hover{
+    transform: scale(.93);
+    transition: .5s ease;
+}
