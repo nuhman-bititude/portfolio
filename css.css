@@ -1,12 +1,35 @@
 .title{
     text-align: center;
-    margin-top: 190px;
-
- 
-    
-  
+    margin-top: 190px; 
+    transition: 1s ease
 }
+.title:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
 .img{
     border-radius: 2000px;
    
+}
+body{
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.link{
+    text-decoration: dotted;
+}
+p{
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
