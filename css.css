@@ -12,6 +12,9 @@
     border-radius: 2000px;
    
 }
+.nav{
+    position:sticky;
+}
 body{
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
